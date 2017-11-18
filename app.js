@@ -6,6 +6,7 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const session = require("express-session");
 const flash = require("connect-flash");
+const hbs = require("express-handlebars");
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 var expressValidator = require("express-validator");
